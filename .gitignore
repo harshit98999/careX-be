@@ -1,0 +1,52 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.so
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# Django specific
+*.log
+*.pot
+*.pyc
+*.mo
+*.db
+db.sqlite3
+media/
+staticfiles/
+static/
+
+# Migrations (optional — if you want clean repo)
+**/migrations/__pycache__/
+**/migrations/*.py
+!**/migrations/__init__.py
+
+# VS Code settings
+.vscode/
+
+# MyPy / Pytest / Coverage
+.mypy_cache/
+.pytest_cache/
+.coverage
+coverage.xml
+
+# Byte-compiled / packaged
+*.egg-info/
+*.egg
+dist/
+build/
+
+# Environment variables
+.env
+*.env
+
+# OS files
+Thumbs.db
+.DS_Store
+
